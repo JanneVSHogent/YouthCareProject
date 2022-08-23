@@ -7,19 +7,43 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.youthcareproject.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:name="com.example.youthcareproject.home.HomeFragment"
+        android:label="@string/title_main_page"
         tools:layout="@layout/fragment_home" />
+        <action
+            android:id="@+id/action_homeFragment_to_detailsPostFragment"
+            app:destination="@id/detailsPostFragment" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.youthcareproject.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/detailsPostFragment"
+        android:name="com.example.youthcareproject.detailsPost.DetailsPostFragment"
+        android:label="Details post" >
+        <argument
+            android:name="postId"
+            app:argType="long" />
+    </fragment>
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.youthcareproject.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_favourites"
+        android:name="com.example.youthcareproject.favourites.FavouritesFragment"
+        android:label="@string/title_favourites"
+        tools:layout="@layout/fragment_favourites" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.youthcareproject.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.example.youthcareproject.search.SearchFragment"
+        android:label="Search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.youthcareproject.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>

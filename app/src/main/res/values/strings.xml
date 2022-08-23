@@ -1,6 +1,19 @@
 <resources>
     <string name="app_name">YouthCareProject</string>
+
+    <!-- Titles -->
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_favourites">Favourites</string>
+    <string name="title_search">Search</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_main_page">YouthCare</string>
+    <string name="title_login">Login</string>
+
+    <!--Login-->
+    <string name="com_auth0_domain">dev-bf8k91x2.us.auth0.com</string>
+    <string name="com_auth0_clientID">AEd6yhqPpSDzDeC6G9hz0uDfxxqX9nVa</string>
+    <string name="login">Log in</string>
+    <string name="logout">Log out</string>
+
 </resources>

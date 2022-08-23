@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="com.example.youthcareproject.detailsPost.DetailsPostViewModel" />
+    </data>
+
+    <!--
+     Vanboven een titel & menu opties: bewerken of verwijderen
+     Dan de body, dus post
+     Daaronder Recyclerview van comments
+     elke comment heeft een replyknop
+        which opens a modal of misschien gewoon een nieuwe pagina
+     vanonder een button om een nieuwe comment op de post te zetten
+     -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
